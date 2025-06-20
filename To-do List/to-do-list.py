@@ -10,7 +10,7 @@ if os.path.exists(file_name):
     wb = load_workbook(file_name)
     sheet = wb["Sheet1"]  # Make sure this matches your actual sheet name
 else:
-    print("❌ File not found! Make sure it's named 'to-do-list-dtbs.xlsx'")
+    print(" File not found! Make sure it's named 'to-do-list-dtbs.xlsx'")
     exit()
 # Step 2: User input loop
 while True:
