@@ -40,4 +40,4 @@ while True:
 
 # Final save
 wb.save(file_name)
-print("✔️ To-do list saved to", os.path.abspath(file_name))
+print("To-do list saved to", os.path.abspath(file_name))
